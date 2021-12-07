@@ -29,4 +29,12 @@ while wynikL%2==0 and wynikM%2==0:
     wynikL = wynikL/2
     wynikM = wynikM/2
 
+while wynikL%3==0 and wynikM%3==0:
+    wynikL = wynikL/3
+    wynikM = wynikM/3
+
+while wynikL%5==0 and wynikM%5==0:
+    wynikL = wynikL/5
+    wynikM = wynikM/5
+
 print('Wynik to: \n' + str(int(wynikL)) + '\n' + '-'*5 + '\n' + str(int(wynikM)))

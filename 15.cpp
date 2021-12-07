@@ -18,7 +18,7 @@ int main()
     cin >> m2;
     cout << "Jakie dzialanie chcesz wykonac? \n(1) Dodawanie \n(2) Odejmowanie \n(3) Mnozenie \n(4) Dzielenie" << endl;
     cin >> y;
-    
+
     liczba1 = l1/m1;
     liczba2 = l2/m2;
 
@@ -36,6 +36,16 @@ int main()
     {
         wynikL = wynikL/2;
         wynikM = wynikM/2;
+    }
+    while (wynikL%3==0 && wynikM%3==0)
+    {
+        wynikL = wynikL/3;
+        wynikM = wynikM/3;
+    }
+    while (wynikL%5==0 && wynikM%5==0)
+    {
+        wynikL = wynikL/5;
+        wynikM = wynikM/5;
     }
 
     cout << "Wynik to \n" << wynikL << endl << "-----" << endl << wynikM;
