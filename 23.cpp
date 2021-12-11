@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    string tekst = "Ala ma kota i psa";
+    string tekst = "";
     string nowyTekst;
     string innyTekst;
     int licznikSlow;
@@ -13,7 +13,7 @@ int main()
     int a = 0;
 
 
-    //cin >> tekst;
+    cin >> tekst;
 
     //ZAMIANA NA '_'
     innyTekst = tekst;
