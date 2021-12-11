@@ -1,3 +1,3 @@
 # 1st-grade-exercises
-I add the my solutions to the 1st grade IT exam here for safe-keeping. 
-Made by me, obviously. 
+I add my solutions to the 1st grade IT exam tasks here for safe-keeping. 
+Made by skill, obv. 
